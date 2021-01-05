@@ -5,7 +5,7 @@
    Name: TOFILL
    Author: Miguel Silva
    Description: TOFILL
-   License: CC BY-SA 4.0 - Check LICENSE file
+   License: Check LICENSE file
 """
 
 

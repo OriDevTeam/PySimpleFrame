@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -14,7 +16,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: CC BY-SA 4.0 License",
+        "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
 )
