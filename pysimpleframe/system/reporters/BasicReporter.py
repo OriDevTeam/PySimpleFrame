@@ -5,7 +5,7 @@
    Name: Reporter Script
    Author: Miguel Silva
    Description: Reports messages to registered subscribers (async/non-async)
-   License: CC BY-SA 4.0 - Check LICENSE file
+   License: Check LICENSE file
 """
 
 ## System imports ##

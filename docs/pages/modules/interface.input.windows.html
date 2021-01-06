@@ -1,0 +1,447 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>interface.input.windows package &mdash; PySimpleFrame  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="interface.page package" href="interface.page.html" />
+    <link rel="prev" title="interface.input.linux package" href="interface.input.linux.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> PySimpleFrame
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Welcome to PySimpleFrame’s documentation!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/introduction.html">Introduction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/downloadinginstalling.html">Downloading/Installing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/firststeps.html">First Steps</a></li>
+</ul>
+<p class="caption"><span class="caption-text">How-Tos</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../how-tos/cli/cli.html">CLI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Python Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">pysimpleframe</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="pysimpleframe.html">pysimpleframe package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="pysimpleframe.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="compatibility.html">compatibility package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="integrity.html">integrity package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="interface.html">interface package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="system.html">system package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pysimpleframe.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PySimpleFrame</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">pysimpleframe</a> &raquo;</li>
+        
+          <li><a href="pysimpleframe.html">pysimpleframe package</a> &raquo;</li>
+        
+          <li><a href="interface.html">interface package</a> &raquo;</li>
+        
+          <li><a href="interface.input.html">interface.input package</a> &raquo;</li>
+        
+      <li>interface.input.windows package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/pages/modules/interface.input.windows.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="interface-input-windows-package">
+<h1>interface.input.windows package<a class="headerlink" href="#interface-input-windows-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-interface.input.windows.Input">
+<span id="interface-input-windows-input-module"></span><h2>interface.input.windows.Input module<a class="headerlink" href="#module-interface.input.windows.Input" title="Permalink to this headline">¶</a></h2>
+<p>PySimpleFrame
+Name: TOFILL
+Author: Miguel Silva
+Description: TOFILL
+License: Check LICENSE file</p>
+<dl class="py class">
+<dt id="interface.input.windows.Input.Input">
+<em class="property">class </em><code class="sig-prename descclassname">interface.input.windows.Input.</code><code class="sig-name descname">Input</code><a class="headerlink" href="#interface.input.windows.Input.Input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="interface.input.windows.Input.Input.GetCharacter">
+<code class="sig-name descname">GetCharacter</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.Input.Input.GetCharacter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="interface.input.windows.Input.Input.GetInput">
+<em class="property">classmethod </em><code class="sig-name descname">GetInput</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.Input.Input.GetInput" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="interface.input.windows.Input.Input.GetInputBytes">
+<em class="property">classmethod </em><code class="sig-name descname">GetInputBytes</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.Input.Input.GetInputBytes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-interface.input.windows.KeyCodes">
+<span id="interface-input-windows-keycodes-module"></span><h2>interface.input.windows.KeyCodes module<a class="headerlink" href="#module-interface.input.windows.KeyCodes" title="Permalink to this headline">¶</a></h2>
+<p>PySimpleFrame
+Name: TOFILL
+Author: Miguel Silva
+Description: TOFILL
+License: Check LICENSE file</p>
+<dl class="py class">
+<dt id="interface.input.windows.KeyCodes.KeyCodes">
+<em class="property">class </em><code class="sig-prename descclassname">interface.input.windows.KeyCodes.</code><code class="sig-name descname">KeyCodes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.A">
+<code class="sig-name descname">A</code><em class="property"> = (500, 'A', 'A')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.A" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.B">
+<code class="sig-name descname">B</code><em class="property"> = (501, 'A', 'B')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.B" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.BACKSPACE">
+<code class="sig-name descname">BACKSPACE</code><em class="property"> = (201, 'BACKSPACE', '\\x08')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.BACKSPACE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.C">
+<code class="sig-name descname">C</code><em class="property"> = (502, 'C', 'C')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.C" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.COPYCANCEL">
+<code class="sig-name descname">COPYCANCEL</code><em class="property"> = (302, 'COPYCANCEL', '\\x03')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.COPYCANCEL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.DOWN">
+<code class="sig-name descname">DOWN</code><em class="property"> = (103, 'DOWN', '\\xe0P')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.DOWN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.ENTER">
+<code class="sig-name descname">ENTER</code><em class="property"> = (200, 'ENTER', '\\r')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.ENTER" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.ESCAPE">
+<code class="sig-name descname">ESCAPE</code><em class="property"> = (202, 'ESCAPE', '\\x1b')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.ESCAPE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.LEFT">
+<code class="sig-name descname">LEFT</code><em class="property"> = (100, 'LEFT', '\\xe0M')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.LEFT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.NONE">
+<code class="sig-name descname">NONE</code><em class="property"> = (0, 'NONE', '')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.NONE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.PASTE">
+<code class="sig-name descname">PASTE</code><em class="property"> = (308, 'PASTE', '\\x16')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.PASTE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.REDO">
+<code class="sig-name descname">REDO</code><em class="property"> = (307, 'REDO', '\\x19')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.REDO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.RIGHT">
+<code class="sig-name descname">RIGHT</code><em class="property"> = (101, 'RIGHT', '\\xe0K')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.RIGHT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.SAVE">
+<code class="sig-name descname">SAVE</code><em class="property"> = (305, 'SAVE', '\\x13')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.SAVE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.SELECTALL">
+<code class="sig-name descname">SELECTALL</code><em class="property"> = (300, 'SELECTALL', '\\x01')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.SELECTALL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.SPACE">
+<code class="sig-name descname">SPACE</code><em class="property"> = (203, 'SPACE', ' ')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.SPACE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.SWITCH">
+<code class="sig-name descname">SWITCH</code><em class="property"> = (301, 'SWITCH', '\\x02')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.SWITCH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.TAB">
+<code class="sig-name descname">TAB</code><em class="property"> = (204, 'TAB', '\\t')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.TAB" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.UNDO">
+<code class="sig-name descname">UNDO</code><em class="property"> = (306, 'UNDO', '\\x1a')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.UNDO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.UNK1">
+<code class="sig-name descname">UNK1</code><em class="property"> = (303, 'UNK1', '\\x04')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.UNK1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.UNK2">
+<code class="sig-name descname">UNK2</code><em class="property"> = (304, 'UNK2', '\\x05')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.UNK2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.UP">
+<code class="sig-name descname">UP</code><em class="property"> = (102, 'UP', '\\xe0H')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.UP" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.a">
+<code class="sig-name descname">a</code><em class="property"> = (400, 'a', 'a')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.a" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.b">
+<code class="sig-name descname">b</code><em class="property"> = (401, 'b', 'b')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.b" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.c">
+<code class="sig-name descname">c</code><em class="property"> = (401, 'c', 'c')</em><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.c" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.keycode">
+<code class="sig-name descname">keycode</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.keycode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.keyindex">
+<code class="sig-name descname">keyindex</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.keyindex" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.keyname">
+<code class="sig-name descname">keyname</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.keyname" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.list">
+<em class="property">static </em><code class="sig-name descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.list" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="interface.input.windows.KeyCodes.KeyCodes.vlist">
+<em class="property">static </em><code class="sig-name descname">vlist</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.input.windows.KeyCodes.KeyCodes.vlist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="interface-input-windows-test-module">
+<h2>interface.input.windows.test module<a class="headerlink" href="#interface-input-windows-test-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-interface.input.windows">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-interface.input.windows" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="interface.page.html" class="btn btn-neutral float-right" title="interface.page package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="interface.input.linux.html" class="btn btn-neutral float-left" title="interface.input.linux package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Miguel Silva.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

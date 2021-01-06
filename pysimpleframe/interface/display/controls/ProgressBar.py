@@ -29,7 +29,7 @@ def CreateProgressBar(iteration, total, prefix = '', suffix = '', decimals = 1, 
 		decimals    - Optional  : positive number of decimals in percent complete (Int)
 		length      - Optional  : character length of bar (Int)
 		fill        - Optional  : bar fill character (Str)
-		#printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
+		printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
 	"""
 	
 	percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))

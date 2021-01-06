@@ -34,8 +34,11 @@ goto end
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 
 :github
+echo Building for GitHub
 %SPHINXBUILD% -M html %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
-move build\html\. ..\docs
+rd ..\docs /s /q
+xcopy /s build\html ..\docs\
+copy NUL ..\docs\.nojekyll
 
 :end
 popd

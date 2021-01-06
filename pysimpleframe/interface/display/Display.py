@@ -18,7 +18,7 @@ import sys
 from colorama import init, Fore, Back, Style
 
 ## Application imports ##
-from pysimpleframe.interface.display.Bounds import CLI
+from .Bounds import CLI
 
 
 def Initialize():

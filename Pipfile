@@ -9,11 +9,13 @@ verify_ssl = true
 setuptools = "*"
 sphinx = "*"
 sphinx-rtd-theme = "*"
+sphinx_pdj_theme = "*"
 colorama = "*"
 spinners = "*"
 halo = "*"
 log-symbols = "*"
 humanfriendly = "*"
+termtables = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"

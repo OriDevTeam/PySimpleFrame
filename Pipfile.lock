@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "90a2796c89caf9b9041eec223258f0e73c4e101723d23ab669e937a07b9cf10b"
+            "sha256": "c67e2a987ea90c5dec566697c05b3b878e1f87c6421670eb398d32b73c2145a1"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.7"
+            "python_version": "3.8"
         },
         "sources": [
             {
@@ -214,19 +214,26 @@
         },
         "sphinx": {
             "hashes": [
-                "sha256:aeef652b14629431c82d3fe994ce39ead65b3fe87cf41b9a3714168ff8b83376",
-                "sha256:e450cb205ff8924611085183bf1353da26802ae73d9251a8fcdf220a8f8712ef"
+                "sha256:77dec5ac77ca46eee54f59cf477780f4fb23327b3339ef39c8471abb829c1285",
+                "sha256:b8aa4eb5502c53d3b5ca13a07abeedacd887f7770c198952fd5b9530d973e767"
             ],
             "index": "pypi",
-            "version": "==3.4.1"
+            "version": "==3.4.2"
+        },
+        "sphinx-pdj-theme": {
+            "hashes": [
+                "sha256:1db9d09449e9eb846ee1232d0b7ab9f5cbc37901e84a9901e9d55e416f46fee0"
+            ],
+            "index": "pypi",
+            "version": "==0.2.1"
         },
         "sphinx-rtd-theme": {
             "hashes": [
-                "sha256:22c795ba2832a169ca301cd0a083f7a434e09c538c70beb42782c073651b707d",
-                "sha256:373413d0f82425aaa28fb288009bf0d0964711d347763af2f1b65cafcb028c82"
+                "sha256:eda689eda0c7301a80cf122dad28b1861e5605cbf455558f3775e1e8200e83a5",
+                "sha256:fa6bebd5ab9a73da8e102509a86f3fcc36dec04a0b52ea80e5a033b2aba00113"
             ],
             "index": "pypi",
-            "version": "==0.5.0"
+            "version": "==0.5.1"
         },
         "sphinxcontrib-applehelp": {
             "hashes": [
@@ -289,6 +296,14 @@
                 "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"
             ],
             "version": "==1.1.0"
+        },
+        "termtables": {
+            "hashes": [
+                "sha256:6c62e19e4d27a594ed53245b8d0ac5b818995a2eec571399bb4190c17d32df72",
+                "sha256:a5f422dd1c6aeb864b8b17cbab0847dd3c622365d2c7b4078cc2dfd8e9ec54f2"
+            ],
+            "index": "pypi",
+            "version": "==0.2.3"
         },
         "urllib3": {
             "hashes": [
