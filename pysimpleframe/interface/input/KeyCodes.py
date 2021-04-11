@@ -1,6 +1,15 @@
-## XGPGBot ##
-## Code Keys Script ##
-## License:  - Description ##
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+   Name: TOFILL\n
+   Description: TOFILL
+"""
+
+"""PySimpleFrame
+   Author: Miguel Silva
+   License: Check LICENSE file
+"""
 
 ## System imports ##
 from enum import Enum, IntEnum, unique

@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""PySimpleFrame
-   Name: TOFILL
-   Author: Miguel Silva
+"""
+   Name: TOFILL\n
    Description: TOFILL
+"""
+
+"""PySimpleFrame
+   Author: Miguel Silva
    License: Check LICENSE file
 """
 
@@ -26,10 +29,6 @@ def DisplayDaemonInformation():
 	DisplayTitle()
 	DisplayPythonName()
 	DisplaySystemName()
-	
-def DisplayTitle():
-	## Display the title
-	DisplayTitle()
 
 def DisplayStartInformation():	
 	## Display the python and system name
@@ -41,20 +40,17 @@ def DisplayEndInformation():
 	print(Fore.YELLOW + "👋" + Fore.GREEN + "Goodbye!")
 	print("")
 	
-def DisplayTitle():
-	## Declare the path of the file
-	titlePath = r'app/interface/page/titles/title.txt'
-	
+def DisplayTitle(titlePath=''):
 	## Try to read the text from the given file
 	try:
-		## Open the file in read mode
+		## Open the file in read mode ## TODO: read mode open
 		f = open(titlePath)
 		
 		## Print the read text
 		print(f.read().encode().decode('unicode_escape'))
 
 	except (IOError, OSError) as e:
-		print("Could not display title")
+		print(f"Could not display title from {titlePath}:{e}")
 
 def DisplayPythonName():
 	## Get Python information and prettify it

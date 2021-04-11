@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+   Name: Compatibility Module\n
+   Description: Performs compatibility checks for Python and OS compatibility
+"""
+
 """PySimpleFrame
-   Name: TOFILL
    Author: Miguel Silva
-   Description: TOFILL
    License: Check LICENSE file
 """
 
@@ -29,12 +32,20 @@ MIN_VERSION = "3.8"
 	
 
 def IsPythonCompatible():
+	"""Check if the current Python execution meets the minimum required version
+	
+	:returns compatible bool: Tells if its Python compatible
+	"""
+	
 	## Get Python version
 	curVersion = platform.python_version()
 	
 	return version.parse(curVersion) > version.parse(MIN_VERSION)
 
 def IsLibrariesCompatible():
+	"""
+	"""
+	
 	## Get OS information
 	system = platform.system()
 	release = platform.release()

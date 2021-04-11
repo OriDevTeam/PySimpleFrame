@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""PySimpleFrame
-   Name: TOFILL
-   Author: Miguel Silva
+"""
+   Name: TOFILL\n
    Description: TOFILL
+"""
+
+"""PySimpleFrame
+   Author: Miguel Silva
    License: Check LICENSE file
 """
 

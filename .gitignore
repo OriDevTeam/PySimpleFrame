@@ -10,7 +10,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -22,7 +21,6 @@ var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
-*.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
@@ -126,3 +124,7 @@ dmypy.json
 
 # SSH specifications
 .ssh/
+
+# Dist and Eggs
+pkg/dist/
+pkg/*.egg-info/

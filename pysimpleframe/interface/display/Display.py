@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-   Name: Display CLI Module\n
-   Description: Handles the control of display of text in CLI
+   Name: TOFILL\n
+   Description: TOFILL
 """
 
 """PySimpleFrame
